@@ -3,8 +3,10 @@
     <TargetFramework>net6.0</TargetFramework>	
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>	
     <RootNamespace>bidirectional_chat</RootNamespace>	
+    <UserSecretsId>f67d7223-7258-479a-a00b-08f0b3bcb88a</UserSecretsId>	
   </PropertyGroup>	
   <ItemGroup>	
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />	
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />	
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.SignalRService" Version="1.7.0" />	
   </ItemGroup>	
